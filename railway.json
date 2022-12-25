@@ -6,8 +6,8 @@
   },
   "deploy": {
     "startCommand": "npm run server",
-    "healthcheckPath": "http://localhost:5000",
-    "healthcheckTimeout": 100,
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 200,
     "restartPolicyType": "never"
   }
 }
